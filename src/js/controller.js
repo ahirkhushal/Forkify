@@ -1,9 +1,15 @@
 import * as model from './model.js';
 import recipeView from './views/recipeView.js';
+import searchView from './views/searchView.js';
+import resultsView from './views/resultsView.js';
+import paginationView from './views/paginationView.js';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
+// if (module.hot) {
+//   module.hot.accept();
+// }
 //loading recipe
 const controlRecipes = async function () {
   try {
@@ -22,33 +28,46 @@ const controlRecipes = async function () {
     recipeView.render(model.state.recipe);
   } catch (err) {
     recipeView.renderError();
-    console.error(err.message);
+    alert(err.message);
   }
+};
+
+//loading results
+const controloSearchResult = async function () {
+  try {
+    //render spinner
+    resultsView.renderspinner();
+
+    // get search query
+    const query = searchView.getQuery();
+    if (!query) return;
+
+    //load search results
+    await model.loadSearchResult(query);
+
+    //render results
+    resultsView.render(model.getSearchResultspage(1));
+
+    //render initial pagination buttons
+    paginationView.render(model.state.search);
+  } catch (err) {
+    console.error(err);
+  }
+};
+
+//this function run on click happen on pagination button
+const ControlPagination = function (goToPage) {
+  //render  new results
+  resultsView.render(model.getSearchResultspage(goToPage));
+
+  //render new pagination buttons
+  paginationView.render(model.state.search);
 };
 
 const init = function () {
   recipeView.addhandlerRender(controlRecipes);
+  searchView.addHandlerSearch(controloSearchResult);
+  paginationView.addHandlerClick(ControlPagination);
 };
 
 init();
-
-// const resultsContainer = document.querySelector('.results');
-// const foodId = ` <li class="preview">
-// <a class="preview__link preview__link--active" href="${id}">
-//   <figure class="preview__fig">
-//     <img src="${recipe.image}" alt="Test" />
-//   </figure>
-//   <div class="preview__data">
-//     <h4 class="preview__title">${recipe.title}</h4>
-//     <p class="preview__publisher">${recipe.publisher}</p>
-//     <div class="preview__user-generated">
-//       <svg>
-//         <use href="${icons}#icon-user"></use>
-//       </svg>
-//     </div>
-//   </div>
-// </a>
-// </li>
-// `;
-
-//     resultsContainer.insertAdjacentHTML('afterbegin', foodId);
