@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon" />
 
     <link rel="stylesheet" href="src/sass/main.scss" />
-    <script defer src="src/js/controller.js"></script>
+    <script defer type="module" src="src/js/controller.js"></script>
 
     <title>forkify // Search over 1,000,000 recipes</title>
   </head>
@@ -63,6 +63,20 @@
                       No bookmarks yet. Find a nice recipe and bookmark it :)
                     </p>
                   </div>
+
+                  <!-- <li class="preview">
+                    <a class="preview__link" href="#23456">
+                      <figure class="preview__fig">
+                        <img src="src/img/test-1.jpg" alt="Test" />
+                      </figure>
+                      <div class="preview__data">
+                        <h4 class="preview__name">
+                          Pasta with Tomato Cream ...
+                        </h4>
+                        <p class="preview__publisher">The Pioneer Woman</p>
+                      </div>
+                    </a>
+                  </li> -->
                 </ul>
               </div>
             </li>
@@ -73,7 +87,20 @@
       <div class="search-results">
         <ul class="results"></ul>
 
-        <div class="pagination"></div>
+        <div class="pagination">
+          <!-- <button class="btn--inline pagination__btn--prev">
+            <svg class="search__icon">
+              <use href="src/img/icons.svg#icon-arrow-left"></use>
+            </svg>
+            <span>Page 1</span>
+          </button>
+          <button class="btn--inline pagination__btn--next">
+            <span>Page 3</span>
+            <svg class="search__icon">
+              <use href="src/img/icons.svg#icon-arrow-right"></use>
+            </svg>
+          </button> -->
+        </div>
       </div>
 
       <div class="recipe">
