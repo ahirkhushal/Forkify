@@ -5,9 +5,9 @@
 60/home/khushal/my work/projects of js/Forkify/src/js/model.js1687855848211339303 0
 71/home/khushal/my work/projects of js/Forkify/src/js/views/recipeView.js1687858336493249287 0
 75/home/khushal/my work/projects of js/Forkify/src/js/views/paginationView.js1687849829780108738 0
-72/home/khushal/my work/projects of js/Forkify/src/js/views/resultsView.js1687848462271828053 0
+72/home/khushal/my work/projects of js/Forkify/src/js/views/resultsView.js1687937398719462138 0
 61/home/khushal/my work/projects of js/Forkify/src/js/config.js1687849191934271471 0
-65/home/khushal/my work/projects of js/Forkify/src/js/controller.js1687857844644775136 0
+65/home/khushal/my work/projects of js/Forkify/src/js/controller.js1687938665236618716 0
 70/home/khushal/my work/projects of js/Forkify/src/sass/_components.scss1644221921000000000 0
 66/home/khushal/my work/projects of js/Forkify/src/sass/_header.scss1644221921000000000 0
 87/home/khushal/my work/projects of js/Forkify/node_modules/@lezer/common/dist/parse.d.ts1687846816105537455 0
@@ -1476,7 +1476,7 @@
 132/home/khushal/my work/projects of js/Forkify/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/pseudo/lang.js1687846817793511764 0
 131/home/khushal/my work/projects of js/Forkify/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/pseudo/dir.js1687846817185521004 0
 131/home/khushal/my work/projects of js/Forkify/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/pseudo/has.js1687846817517515957 0
-65/home/khushal/my work/projects of js/Forkify/src/js/views/view.js1687848466587882370 0
+65/home/khushal/my work/projects of js/Forkify/src/js/views/view.js1687939263162520859 0
 147/home/khushal/my work/projects of js/Forkify/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/pseudo/common/selectorList.js1687846818049507873 0
 138/home/khushal/my work/projects of js/Forkify/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/pseudo/common/nth.js1687846817933509635 0
 131/home/khushal/my work/projects of js/Forkify/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/pseudo/not.js1687846817905510060 0
@@ -3035,7 +3035,7 @@
 103/home/khushal/my work/projects of js/Forkify/node_modules/@swc/helpers/lib/_async_generator_delegate.js1687846817229520335 0
 100/home/khushal/my work/projects of js/Forkify/node_modules/core-js/actual/set/symmetric-difference.js1687846821225459879 0
 85/home/khushal/my work/projects of js/Forkify/node_modules/svgo/plugins/_transforms.js1687846815921540263 0
-72/home/khushal/my work/projects of js/Forkify/dist/index.f7626f62.css.map1687858327485101640 0
+72/home/khushal/my work/projects of js/Forkify/dist/index.f7626f62.css.map1687939253569182540 0
 84/home/khushal/my work/projects of js/Forkify/node_modules/svgo/plugins/mergePaths.js1687846816605529836 0
 96/home/khushal/my work/projects of js/Forkify/node_modules/core-js/features/regexp/constructor.js1687846819025493081 0
 100/home/khushal/my work/projects of js/Forkify/node_modules/svgo/plugins/removeUselessStrokeAndFill.js1687846817001523800 0
@@ -4390,7 +4390,7 @@
 91/home/khushal/my work/projects of js/Forkify/node_modules/lightningcss/node/targets.js.flow1687846816145536846 0
 101/home/khushal/my work/projects of js/Forkify/node_modules/core-js/internals/async-iterator-indexed.js1687846817969509087 0
 91/home/khushal/my work/projects of js/Forkify/node_modules/css-select/lib/esm/compile.js.map1687846816785527093 0
-49/home/khushal/my work/projects of js/Forkify/dist1687858327489101705 1
+49/home/khushal/my work/projects of js/Forkify/dist1687939263726414061 1
 91/home/khushal/my work/projects of js/Forkify/node_modules/core-js/internals/array-buffer.js1687846817329518815 0
 91/home/khushal/my work/projects of js/Forkify/node_modules/css-tree/lib/lexer/match-graph.js1687846818645498839 0
 104/home/khushal/my work/projects of js/Forkify/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb.c1687846817393517843 0
@@ -4801,7 +4801,7 @@
 98/home/khushal/my work/projects of js/Forkify/node_modules/css-tree/lib/syntax/node/SelectorList.js1687846818793496595 0
 68/home/khushal/my work/projects of js/Forkify/node_modules/domhandler1687846815921540263 1
 107/home/khushal/my work/projects of js/Forkify/node_modules/@swc/helpers/cjs/_check_private_redeclaration.cjs1687846816097537578 0
-67/home/khushal/my work/projects of js/Forkify/dist/logo.726d37a8.png1687858327137095932 0
+67/home/khushal/my work/projects of js/Forkify/dist/logo.726d37a8.png1687939253329273971 0
 92/home/khushal/my work/projects of js/Forkify/node_modules/css-what/lib/commonjs/stringify.js1687846816021538735 0
 86/home/khushal/my work/projects of js/Forkify/node_modules/css-tree/cjs/lexer/error.cjs1687846816953524532 0
 84/home/khushal/my work/projects of js/Forkify/node_modules/core-js/es/array/concat.js1687846818861495565 0
@@ -4946,7 +4946,7 @@
 88/home/khushal/my work/projects of js/Forkify/node_modules/mdn-data/css/units.schema.json1687846816853526056 0
 123/home/khushal/my work/projects of js/Forkify/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/replace/color.js1687846816449532213 0
 89/home/khushal/my work/projects of js/Forkify/node_modules/msgpackr/dist/index-no-eval.cjs1687846815753542831 0
-68/home/khushal/my work/projects of js/Forkify/dist/index.f7626f62.css1687858327485101640 0
+68/home/khushal/my work/projects of js/Forkify/dist/index.f7626f62.css1687939253565184064 0
 96/home/khushal/my work/projects of js/Forkify/node_modules/csso/lib/restructure/7-mergeRuleset.js1687846816969524289 0
 105/home/khushal/my work/projects of js/Forkify/node_modules/css-select/node_modules/domutils/lib/helpers.js1687846815877540936 0
 105/home/khushal/my work/projects of js/Forkify/node_modules/@parcel/core/src/requests/BundleGraphRequest.js1687846817225520396 0
@@ -5168,7 +5168,7 @@
 93/home/khushal/my work/projects of js/Forkify/node_modules/core-js/stable/string/virtual/at.js1687846818245504903 0
 84/home/khushal/my work/projects of js/Forkify/node_modules/css-tree/lib/utils/List.js1687846818641498900 0
 114/home/khushal/my work/projects of js/Forkify/node_modules/css-select/node_modules/entities/lib/esm/decode.d.ts.map1687846816749527642 0
-67/home/khushal/my work/projects of js/Forkify/dist/index.e37f48ea.js1687858327485101640 0
+67/home/khushal/my work/projects of js/Forkify/dist/index.e37f48ea.js1687939263718415576 0
 111/home/khushal/my work/projects of js/Forkify/node_modules/css-select/node_modules/domutils/lib/esm/package.json1687846816381533250 0
 94/home/khushal/my work/projects of js/Forkify/node_modules/@swc/helpers/lib/_new_arrow_check.js1687846818165506115 0
 115/home/khushal/my work/projects of js/Forkify/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/CHANGELOG.md1687846817145521612 0
@@ -5221,7 +5221,7 @@
 89/home/khushal/my work/projects of js/Forkify/node_modules/caniuse-lite/data/regions/NO.js1687846819529485461 0
 93/home/khushal/my work/projects of js/Forkify/node_modules/core-js/es/typed-array/find-last.js1687846820009478204 0
 101/home/khushal/my work/projects of js/Forkify/node_modules/@swc/helpers/_/_possible_constructor_return1687846819249489694 1
-68/home/khushal/my work/projects of js/Forkify/dist/icons.21bad73c.svg1687858327325099015 0
+68/home/khushal/my work/projects of js/Forkify/dist/icons.21bad73c.svg1687939253329273971 0
 88/home/khushal/my work/projects of js/Forkify/node_modules/core-js/stable/symbol/split.js1687846821161460842 0
 92/home/khushal/my work/projects of js/Forkify/node_modules/@babel/code-frame/lib/index.js.map1687846815689543809 0
 87/home/khushal/my work/projects of js/Forkify/node_modules/caniuse-lite/data/browsers.js1687846817193520883 0
@@ -5268,7 +5268,7 @@
 83/home/khushal/my work/projects of js/Forkify/node_modules/css-tree/cjs/syntax/scope1687846817937509574 1
 90/home/khushal/my work/projects of js/Forkify/node_modules/css-select/node_modules/domutils1687846816829526421 1
 88/home/khushal/my work/projects of js/Forkify/node_modules/chokidar/lib/nodefs-handler.js1687846815921540263 0
-68/home/khushal/my work/projects of js/Forkify/dist/icons.dfd7a6db.svg1687858327325099015 0
+68/home/khushal/my work/projects of js/Forkify/dist/icons.dfd7a6db.svg1687939253329273971 0
 98/home/khushal/my work/projects of js/Forkify/node_modules/csso/lib/restructure/3-disjoinRuleset.js1687846816921525019 0
 103/home/khushal/my work/projects of js/Forkify/node_modules/css-select/node_modules/entities/package.json1687846816585530141 0
 87/home/khushal/my work/projects of js/Forkify/node_modules/@swc/helpers/lib/_inherits.js1687846818045507934 0
@@ -5632,7 +5632,7 @@
 105/home/khushal/my work/projects of js/Forkify/node_modules/css-select/node_modules/domhandler/lib/index.js1687846815757542770 0
 95/home/khushal/my work/projects of js/Forkify/node_modules/@swc/helpers/cjs/_new_arrow_check.cjs1687846816877525691 0
 86/home/khushal/my work/projects of js/Forkify/node_modules/css-select/lib/sort.d.ts.map1687846817017523558 0
-70/home/khushal/my work/projects of js/Forkify/dist/favicon.8b2f57bf.png1687858327133095866 0
+70/home/khushal/my work/projects of js/Forkify/dist/favicon.8b2f57bf.png1687939253329273971 0
 88/home/khushal/my work/projects of js/Forkify/node_modules/core-js/full/typed-array/at.js1687846818209505448 0
 82/home/khushal/my work/projects of js/Forkify/node_modules/to-regex-range/README.md1687846815669544114 0
 100/home/khushal/my work/projects of js/Forkify/node_modules/css-select/node_modules/domhandler/lib/esm1687846816345533799 1
@@ -6301,7 +6301,7 @@
 115/home/khushal/my work/projects of js/Forkify/node_modules/@swc/helpers/src/_class_static_private_field_spec_get.mjs1687846819553485098 0
 105/home/khushal/my work/projects of js/Forkify/node_modules/core-js/features/dom-exception/to-string-tag.js1687846821305458676 0
 121/home/khushal/my work/projects of js/Forkify/node_modules/@parcel/optimizer-svgo/node_modules/css-select/lib/procedure.js1687846816113537333 0
-71/home/khushal/my work/projects of js/Forkify/dist/index.e37f48ea.js.map1687858327489101705 0
+71/home/khushal/my work/projects of js/Forkify/dist/index.e37f48ea.js.map1687939263722414819 0
 93/home/khushal/my work/projects of js/Forkify/node_modules/@swc/helpers/_/_to_consumable_array1687846819433486913 1
 70/home/khushal/my work/projects of js/Forkify/node_modules/entities/lib1687846816533530933 1
 95/home/khushal/my work/projects of js/Forkify/node_modules/core-js/es/object/set-prototype-of.js1687846821073462164 0
@@ -6980,7 +6980,7 @@
 92/home/khushal/my work/projects of js/Forkify/node_modules/core-js/features/typed-array/at.js1687846818173505994 0
 90/home/khushal/my work/projects of js/Forkify/node_modules/core-js/full/set/intersection.js1687846820553470002 0
 118/home/khushal/my work/projects of js/Forkify/node_modules/@parcel/optimizer-svgo/node_modules/css-select/lib/sort.d.ts1687846816689528555 0
-60/home/khushal/my work/projects of js/Forkify/dist/index.html1687858327325099015 0
+60/home/khushal/my work/projects of js/Forkify/dist/index.html1687939253485214541 0
 101/home/khushal/my work/projects of js/Forkify/node_modules/core-js/actual/array/virtual/to-reversed.js1687846821277459097 0
 94/home/khushal/my work/projects of js/Forkify/node_modules/core-js/actual/array/virtual/some.js1687846821125461383 0
 90/home/khushal/my work/projects of js/Forkify/node_modules/@parcel/transformer-posthtml/lib1687846815669544114 1
