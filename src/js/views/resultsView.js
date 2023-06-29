@@ -10,7 +10,6 @@ class resultsView extends view {
   _generateMarkup() {
     return this._data
       .map(bookmarks => {
-        console.log(bookmarks);
         return previewView.render(bookmarks, false);
       })
       .join('');
