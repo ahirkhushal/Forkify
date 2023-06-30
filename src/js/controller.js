@@ -5,6 +5,7 @@ import resultsView from './views/resultsView.js';
 import paginationView from './views/paginationView.js';
 import bookMarksView from './views/bookMarksView.js';
 import addRecipeView from './views/addRecipeView.js';
+import { MODAL_CLOSE_SEC } from './config.js';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
@@ -98,10 +99,35 @@ const controlBookMarks = function () {
   bookMarksView.render(model.state.bookamarks);
 };
 
-const controlAddRecipe = function (newRecipe) {
-  console.log(newRecipe);
+const controlAddRecipe = async function (newRecipe) {
+  try {
+    //show loading spinner
+    addRecipeView.renderspinner();
 
-  //upload the new recipe data
+    //upload the new recipe data
+    await model.uploadRecipe(newRecipe);
+
+    //render recipe
+    recipeView.render(model.state.recipe);
+
+    //success message
+    addRecipeView.renderSuccessMsg();
+
+    //render bookmarkview
+    bookMarksView.render(model.state.bookamarks);
+
+    //change id in the url
+    window.history.pushState(null, '', `#${model.state.recipe.id}`);
+
+    //close form window
+    setTimeout(function () {
+      console.log('ok');
+      addRecipeView.toggleWIndow();
+    }, MODAL_CLOSE_SEC * 1000);
+  } catch (err) {
+    console.error(err);
+    addRecipeView.renderError(err.message);
+  }
 };
 
 const init = function () {
